@@ -1,6 +1,9 @@
 import backgroundImage from '@/assets/images/background.webp';
 import Header from '@/components/Header';
 import DreamInterpretationForm from './DreamInterpretationForm';
+import Image from 'next/image';
+import image3 from '@/assets/images/image3.webp';
+import image4 from "@/assets/images/image4.webp";
 
 export default function Home() {
   return (
@@ -23,7 +26,7 @@ export default function Home() {
 
           <DreamInterpretationForm />
 
-          <div className="my-4">
+          <div className="my-12">
             <h2 className="text-3xl text-left font-black mb-4 leading-10">
               꿈 해몽 <br />
               인기 해몽 주제
@@ -32,7 +35,7 @@ export default function Home() {
             <div className="text-left">
               <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
                 <h3 className="text-xl mb-3 font-extrabold">
-                  뱀꿈 🐍
+                  꿈 해몽: 뱀꿈 🐍
                 </h3>
                 <div className="pb-2">
                   <p className="font-bold">① 뱀이 나타나는 꿈</p>
@@ -59,7 +62,7 @@ export default function Home() {
 
               <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
                 <h3 className="text-xl mb-3 font-extrabold">
-                  밥꿈 🍚
+                  꿈 해몽: 밥꿈 🍚
                 </h3>
                 <div className="pb-2">
                   <p className="font-bold">① 밥을 먹는 꿈</p>
@@ -89,7 +92,7 @@ export default function Home() {
 
               <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
                 <h3 className="text-xl mb-3 font-extrabold">
-                  강아지꿈 🐶
+                  꿈 해몽: 강아지꿈 🐶
                 </h3>
                 <div className="pb-2">
                   <p className="font-bold">① 강아지를 안는 꿈</p>
@@ -114,6 +117,73 @@ export default function Home() {
                   <br />
                   ·부정적 의미: 현실에서 해야 할 중요한 일을 미루고 있음을
                   나타낼 수 있습니다.
+                </div>
+              </div>
+            </div>
+
+            <div className="my-12">
+              <h2 className="text-3xl text-left font-black mb-4 leading-10">
+                꿈 해몽 <br />
+                사이트 이용법
+              </h2>
+
+              <div className="text-left">
+                <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
+                  <div className="mb-6">
+                    <h3 className="text-xl font-extrabold">① 꿈 해몽 입력</h3>
+                    <Image
+                      src={image3}
+                      alt="꿈 해몽 입력 방법"
+                      className="mt-2 mb-4 rounded-sm shadow-md w-full max-w-md mx-auto items-center"
+                      width={500}
+                      height={300}
+                    />
+                    <p>
+                      Tip: 꿈을 더 구체적으로 입력할수록 해몽이 자세하게
+                      풀이돼요.
+                    </p>
+                  </div>
+
+                  <div className="mb-6">
+                    <h3 className="text-xl font-extrabold">② 꿈 해몽 중</h3>
+                    <Image
+                      src={image4}
+                      alt="꿈 해몽 입력 방법"
+                      className="mt-2 mb-4 rounded-sm shadow-md w-full max-w-md mx-auto items-center"
+                      width={500}
+                      height={300}
+                    />
+                    <p>· 잠시 기다리면 꿈 해몽이 완료돼요.</p>
+                  </div>
+
+                  <div className="mb-4">
+                    <h3 className="text-xl pb-3 font-extrabold">
+                      ③ 꿈 해몽 완료
+                    </h3>
+                    <p>· 꿈 풀이를 읽어보고 ~~</p>
+                    <p>· 꿈 풀이는 단순 재미일 뿐 ~~</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="my-12">
+              <h2 className="text-3xl text-left font-black mb-4 leading-10">
+                꿈 해몽 <br />
+                사이트 소개
+              </h2>
+
+              <div className="text-left">
+                <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
+                  <h3 className="text-xl pb-3 font-extrabold">
+                    💬 꿈 해몽 사이트: 꿈풀이
+                  </h3>
+                  <p>
+                    꿈풀이(Dream Interpreter)는 당신의 무의식이 전하는 메시지를
+                    해석하는 디지털 플랫폼으로, 전 세계의 다양한 문화와 전통에서
+                    비롯된 1만 개 이상의 꿈 해석 데이터베이스를 통해 당신의 꿈을
+                    상세하게 분석하고 이해할 수 있도록 지원합니다.
+                  </p>
                 </div>
               </div>
             </div>
