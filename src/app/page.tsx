@@ -35,7 +35,7 @@ export default function Home() {
             <div className="text-left">
               <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
                 <h3 className="text-xl mb-3 font-extrabold">
-                  꿈 해몽: 뱀꿈 🐍
+                  뱀꿈 🐍
                 </h3>
                 <div className="pb-2">
                   <p className="font-bold">① 뱀이 나타나는 꿈</p>
@@ -62,7 +62,7 @@ export default function Home() {
 
               <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
                 <h3 className="text-xl mb-3 font-extrabold">
-                  꿈 해몽: 밥꿈 🍚
+                  밥꿈 🍚
                 </h3>
                 <div className="pb-2">
                   <p className="font-bold">① 밥을 먹는 꿈</p>
@@ -92,7 +92,7 @@ export default function Home() {
 
               <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-8 px-6">
                 <h3 className="text-xl mb-3 font-extrabold">
-                  꿈 해몽: 강아지꿈 🐶
+                  강아지꿈 🐶
                 </h3>
                 <div className="pb-2">
                   <p className="font-bold">① 강아지를 안는 꿈</p>
