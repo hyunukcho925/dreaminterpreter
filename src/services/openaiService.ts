@@ -39,7 +39,7 @@ export const interpretDream = async (
           }\n- 일상생활에서 특이사항: ${additionalInfo || "정보 없음"}`,
         },
       ],
-      max_tokens: 500,
+      max_tokens: 1000,
       temperature: 0.7,
     });
 

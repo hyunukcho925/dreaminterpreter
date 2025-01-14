@@ -72,7 +72,7 @@ export default function DreamInterpretationForm() {
       {dreamInterpretation && (
         <div className="bg-white rounded-2xl py-6 px-4 mt-6 min-h-[240px] max-h-[1000px] overflow-y-auto">
           <h2 className="text-xl font-bold mb-4">꿈해몽 결과</h2>
-          <div className="whitespace-pre-wrap break-words leading-relaxed text-base text-left">
+          <div className="whitespace-pre-line break-words leading-relaxed text-base text-left">
             {dreamInterpretation.split("**").map((part, index) =>
               index % 2 === 1 ? (
                 <span key={index} className="font-bold break-words">
