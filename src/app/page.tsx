@@ -14,7 +14,7 @@ export default function Home() {
         style={{ backgroundImage: `url(${backgroundImage.src})` }}
       >
         <main className="flex flex-col gap-4 row-start-2 w-full max-w-[720px] p-6">
-          <h1 className="text-3xl font-black mb-4 leading-10">
+          <h1 className="text-3xl font-black leading-10">
             꿈 해몽 <br />
             AI 해몽 서비스
           </h1>

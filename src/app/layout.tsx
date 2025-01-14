@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://dreaminterpreter.co.kr"),
   title: "꿈해몽 전문 | 꿈 해석 및 의미 분석 | Dream Interpreter",
   description:
-    "전문가의 정확하고 깊이 있는 꿈 해석 서비스. 다양한 꿈의 상징과 의미를 전문적으로 분석하고 해설합니다. 당신의 꿈을 이해하고 통찰력을 얻으세요.",
+    "무료 꿈 해몽 풀이! 꿈해몽 밥꿈, 뱀꿈, 강아지꿈, 똥꿈 해몽! 무료로 풀이해 드리는 꿈해몽을 통해 오늘 꾼 꿈을 해몽해 보세요. 꿈의 의미를 확인하고 길몽, 태몽 여부를 확인해 보세요.",
   authors: [{ name: "dreaminterpreter" }],
   publisher: "dreaminterpreter",
   robots: {
@@ -29,23 +29,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://dreaminterpreter.co.kr",
-    title: "꿈해몽 전문 | 꿈 해석 및 의미 분석 | Dream Interpreter",
+    title: "꿈 해몽 사이트 | 무료 꿈풀이 검색 | Dream Interpreter",
     description:
-      "전문가의 정확하고 깊이 있는 꿈 해석 서비스. 다양한 꿈의 상징과 의미를 전문적으로 분석하고 해설합니다. 당신의 꿈을 이해하고 통찰력을 얻으세요.",
+      "무료 꿈 해몽 풀이! 꿈해몽 밥꿈, 뱀꿈, 강아지꿈, 똥꿈 해몽! 무료로 풀이해 드리는 꿈해몽을 통해 오늘 꾼 꿈을 해몽해 보세요. 꿈의 의미를 확인하고 길몽, 태몽 여부를 확인해 보세요.",
     siteName: "Dream Interpreter",
     images: [
       {
         url: ogImage.src,
         width: 800,
         height: 400,
-        alt: "꿈해몽 전문 서비스",
+        alt: "꿈해몽 사이트",
         type: "image/webp",
       },
     ],
     locale: "ko_KR",
   },
-  keywords:
-    "꿈해몽,꿈 해석,꿈 의미,꿈 상징,심리 분석,꿈 통찰,꿈 이해",
+  keywords: "꿈해몽,꿈 해석,꿈 의미,꿈 상징,심리 분석,꿈 통찰,꿈 이해",
   alternates: {
     canonical: "https://dreaminterpreter.co.kr",
   },

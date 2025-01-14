@@ -46,7 +46,7 @@ export default function DreamInterpretationForm() {
         className="flex items-center justify-center w-full bg-primary text-white rounded-xl py-4 hover:bg-primary-dark transition-colors disabled:opacity-50"
       >
         {isLoading ? '꿈해몽 중...' : '꿈해몽 시작하기'}
-        {!isLoading && <MagnifyingGlassIcon className="h-6 w-6 ml-2" />}
+        {!isLoading && <MagnifyingGlassIcon className="h-5 w-5 ml-1 mb-1" />}
       </button>
 
       {dreamInterpretation && (
