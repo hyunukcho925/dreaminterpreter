@@ -123,8 +123,7 @@ export default function Home() {
 
             <div className="my-12">
               <h2 className="text-3xl text-left font-black mb-4 leading-10">
-                꿈 해몽 <br />
-                사이트 이용법
+                꿈 해몽 방법
               </h2>
 
               <div className="text-left">
@@ -133,7 +132,8 @@ export default function Home() {
                     <h3 className="text-xl font-extrabold">① 꿈 해몽 입력</h3>
                     <Image
                       src={image3}
-                      alt="꿈 해몽 입력 방법"
+                      title="꿈 해몽 방법"
+                      alt="꿈 해몽 방법"
                       className="mt-2 mb-4 rounded-sm shadow-md w-full max-w-md mx-auto items-center"
                       width={500}
                       height={300}
@@ -148,7 +148,8 @@ export default function Home() {
                     <h3 className="text-xl font-extrabold">② 꿈 해몽 중</h3>
                     <Image
                       src={image4}
-                      alt="꿈 해몽 입력 방법"
+                      title="꿈 해몽 방법"
+                      alt="꿈 해몽 방법"
                       className="mt-2 mb-4 rounded-sm shadow-md w-full max-w-md mx-auto items-center"
                       width={500}
                       height={300}
@@ -160,8 +161,8 @@ export default function Home() {
                     <h3 className="text-xl pb-3 font-extrabold">
                       ③ 꿈 해몽 완료
                     </h3>
-                    <p>· 꿈 풀이를 읽어보고 ~~</p>
-                    <p>· 꿈 풀이는 단순 재미일 뿐 ~~</p>
+                    <p>· 꿈 풀이를 읽어보고 길몽인지 흉몽인지 확인해 보세요.</p>
+                    <p>· 꿈 풀이는 단순 재미일 뿐 진지하게 생각하지 마세요.</p>
                   </div>
                 </div>
               </div>
