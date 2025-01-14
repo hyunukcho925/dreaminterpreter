@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://dreaminterpreter.co.kr"),
-  title: "꿈해몽 전문 | 꿈 해석 및 의미 분석 | Dream Interpreter",
+  title: "꿈 해몽 사이트 | 무료 꿈풀이 해석 검색 | Dream Interpreter",
   description:
     "무료 꿈 해몽 풀이! 꿈해몽 밥꿈, 뱀꿈, 강아지꿈, 똥꿈 해몽! 무료로 풀이해 드리는 꿈해몽을 통해 오늘 꾼 꿈을 해몽해 보세요. 꿈의 의미를 확인하고 길몽, 태몽 여부를 확인해 보세요.",
   authors: [{ name: "dreaminterpreter" }],
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "https://dreaminterpreter.co.kr",
-    title: "꿈 해몽 사이트 | 무료 꿈풀이 검색 | Dream Interpreter",
+    title: "꿈 해몽 사이트 | 무료 꿈풀이 해석 검색 | Dream Interpreter",
     description:
       "무료 꿈 해몽 풀이! 꿈해몽 밥꿈, 뱀꿈, 강아지꿈, 똥꿈 해몽! 무료로 풀이해 드리는 꿈해몽을 통해 오늘 꾼 꿈을 해몽해 보세요. 꿈의 의미를 확인하고 길몽, 태몽 여부를 확인해 보세요.",
     siteName: "Dream Interpreter",
