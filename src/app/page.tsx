@@ -2,6 +2,7 @@ import backgroundImage from '@/assets/images/background.webp';
 import Header from '@/components/Header';
 import DreamInterpretationForm from './DreamInterpretationForm';
 import Image from 'next/image';
+import Link from 'next/link';
 import image3 from '@/assets/images/image3.webp';
 import image4 from "@/assets/images/image4.webp";
 
@@ -33,7 +34,7 @@ export default function Home() {
             </h2>
 
             <div className="text-left break-words leading-relaxed">
-              <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-6 px-4">
+              <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 pt-6 py-4 px-4">
                 <h3 className="text-xl mb-3 font-extrabold">뱀꿈 🐍</h3>
                 <div className="pb-4">
                   <p className="font-bold">1. 뱀이 나타나는 꿈</p>
@@ -54,9 +55,15 @@ export default function Home() {
                   문제나 걱정거리가 해결될 가능성을 암시합니다. 원치 않던 상황이
                   마무리될 수도 있습니다.
                 </div>
+                <Link
+                  href="/dreams/snake"
+                  className="mt-2 inline-block w-full px-4 py-2 bg-primary text-white text-center font-bold rounded-lg hover:bg-[#720073] transition-colors"
+                >
+                  자세히보기
+                </Link>
               </div>
 
-              <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-6 px-4">
+              <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 pt-6 py-4 px-4">
                 <h3 className="text-xl mb-3 font-extrabold">밥꿈 🍚</h3>
                 <div className="pb-4">
                   <p className="font-bold">1. 밥을 먹는 꿈</p>
@@ -79,9 +86,15 @@ export default function Home() {
                   <br />- 부정적 의미: 기회를 놓치거나 실수로 인해 후회할 수
                   있음을 경고합니다.
                 </div>
+                <Link
+                  href="/dreams/meal"
+                  className="mt-2 inline-block w-full px-4 py-2 bg-primary text-white text-center font-bold rounded-lg hover:bg-[#720073] transition-colors"
+                >
+                  자세히보기
+                </Link>
               </div>
 
-              <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 py-6 px-4">
+              <div className="bg-white rounded-2xl flex flex-col items-start justify-start mb-4 pt-6 py-4 px-4">
                 <h3 className="text-xl mb-3 font-extrabold">강아지꿈 🐶</h3>
                 <div className="pb-4">
                   <p className="font-bold">1. 강아지를 안는 꿈</p>
@@ -104,6 +117,12 @@ export default function Home() {
                   <br />- 부정적 의미: 현실에서 해야 할 중요한 일을 미루고
                   있음을 나타낼 수 있습니다.
                 </div>
+                <Link
+                  href="/dreams/dog"
+                  className="mt-2 inline-block w-full px-4 py-2 bg-primary text-white text-center font-bold rounded-lg hover:bg-[#720073] transition-colors"
+                >
+                  자세히보기
+                </Link>
               </div>
             </div>
 
